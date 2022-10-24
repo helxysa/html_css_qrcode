@@ -1,0 +1,48 @@
+body {
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    font-family: 'JetBrains Mono', monospace;
+    background-color: hsl(220, 15%, 55%);
+}
+
+.main {
+    margin: 100px;
+    
+    width: 350px;
+    padding: 30px;
+    border-radius: 14px;
+    border: flex;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.main .img img {
+    border-radius: 10px;
+    
+    width: 290px;
+    height: 280px;
+
+   
+    
+}
+
+div .info-1 {
+   text-align: center;
+   font-size: 20px;
+   padding: 5px;
+
+   font-weight: 700;
+   color: #191919;
+}
+
+.descricao h3{
+    padding-top: 10px;
+    font-size: 15px; 
+    font-weight: 400;
+    text-align: center;
+    color: hsl(212, 45%, 89%)
+
+}
